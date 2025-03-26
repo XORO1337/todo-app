@@ -39,49 +39,63 @@ Follow these steps to get the Todo App up and running on your local machine.
 1. **Clone the Repository**  
    ```bash
    git clone https://github.com/XORO1337/todo-app.git
-Navigate to the Project Directory
+Navigate to the project directory:
+
 bash
-
-Collapse
-
-Wrap
-
 Copy
+Edit
 cd todo-app
-Open the App
-Simply open index.html in your browser, or if it’s a Node.js app:
+Install dependencies:
+
 bash
-
-Collapse
-
-Wrap
-
 Copy
+Edit
 npm install
+Running the Application
+To start the development server:
+
+bash
+Copy
+Edit
 npm start
-📖 Usage
-Open the app in your browser.
-Type a task in the input field and hit "Add" or press Enter.
-Click on a task to edit it, or use the delete button to remove it.
-Check the box next to a task to mark it as complete. Done! 🎉
-Feel free to add a screenshot or GIF here showcasing the app in action!
+Open http://localhost:3000 in your browser to view the app.
+
+🛠️ Built With
+React - A JavaScript library for building user interfaces.
+
+Create React App - A tool to set up a new React project with a good default configuration.
 
 🤝 Contributing
-Contributions are welcome! Want to make this Todo App even better? Here’s how you can help:
+Contributions are welcome! If you'd like to contribute, please follow these steps:
 
-Fork the repository 🍴
-Create a new branch (git checkout -b feature/amazing-feature)
-Commit your changes (git commit -m 'Add some amazing feature')
-Push to the branch (git push origin feature/amazing-feature)
-Open a Pull Request 🚀
-Please read our  for more details.
+Fork the repository.
 
-🌟 Show Your Support
-If you like this project, give it a ⭐ on GitHub! It means a lot and keeps the motivation flowing.
+Create a new branch:
 
-📜 License
-This project is licensed under the MIT License – see the  file for details.
+bash
+Copy
+Edit
+git checkout -b feature/YourFeatureName
+Make your changes and commit them:
 
+bash
+Copy
+Edit
+git commit -m 'Add some feature'
+Push to the branch:
+
+bash
+Copy
+Edit
+git push origin feature/YourFeatureName
+Submit a pull request.
+
+📷 Screenshots
+Here are some screenshots of the Todo App:
+
+
+📄 License
+This project is licensed under the MIT License. See the LICENSE file for details.
 👤 Author
 XORO1337
 GitHub: @XORO1337
