@@ -7,14 +7,13 @@ export interface Todo {
   priority: 'High' | 'Medium' | 'Low';
   tags: string[];
   createdAt: string;
-  scheduledDateTime?: string | null;
+  scheduledDateTime: string | null;
   location?: string | null;
   weather?: {
     description: string;
     temperature: number;
     icon: string;
   } | null;
-  time?: string;
 }
 
 interface TodoState {

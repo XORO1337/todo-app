@@ -131,11 +131,6 @@ const TaskList: React.FC = () => {
                       opacity: todo.completed ? 0.6 : 1
                     }}>
                       {todo.text}
-                      {todo.time && (
-                        <span className="ms-2 text-muted">
-                          <i className="bi bi-clock"></i> {todo.time}
-                        </span>
-                      )}
                     </span>
                   </div>
                   
@@ -143,6 +138,18 @@ const TaskList: React.FC = () => {
                     <Badge bg={getPriorityBadgeVariant(todo.priority)}>
                       {todo.priority}
                     </Badge>
+                    
+                    {todo.scheduledDateTime && (
+                      <Badge bg="primary">
+                        <i className="bi bi-calendar"></i> {new Date(todo.scheduledDateTime).toLocaleDateString()}
+                      </Badge>
+                    )}
+                    
+                    {todo.scheduledDateTime && (
+                      <Badge bg="dark">
+                        <i className="bi bi-clock"></i> {new Date(todo.scheduledDateTime).toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })}
+                      </Badge>
+                    )}
                     
                     {todo.tags.map((tag, index) => (
                       <Badge key={index} bg="secondary">{tag}</Badge>

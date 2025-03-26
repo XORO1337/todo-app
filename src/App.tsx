@@ -25,7 +25,7 @@ function App() {
       <AppBar position="static" sx={{ mb: 4 }}>
         <Container>
           <Toolbar>
-            <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
+            <Typography variant="h6" component="div" sx={{ flexGrow: 1, textAlign: 'left', ml: -4 }}>
               Advanced Todo App
             </Typography>
             {isAuthenticated && user && (

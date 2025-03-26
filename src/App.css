@@ -36,3 +36,25 @@
     transform: rotate(360deg);
   }
 }
+
+.rounded-input {
+  border-radius: 20px !important;
+  overflow: hidden;
+}
+
+.form-control {
+  border-radius: 20px !important;
+}
+
+/* For Material UI components */
+.MuiOutlinedInput-root {
+  border-radius: 20px !important;
+}
+
+.MuiFilledInput-root {
+  border-radius: 20px !important;
+}
+
+.MuiInput-root {
+  border-radius: 20px !important;
+}
