@@ -1,7 +1,6 @@
 # 📝 Todo App
 
 ![Todo App Preview](https://i.imgur.com/JQZ1l4D.png)  
-*(Replace with your actual screenshot)*
 
 A minimalist yet powerful todo application built with React. Organize your tasks with ease!
 
