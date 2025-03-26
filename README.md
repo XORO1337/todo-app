@@ -21,8 +21,9 @@ git clone https://github.com/XORO1337/todo-app.git
 cd todo-app
 npm install
 npm start
-🤝 Contributing
+```
+## 🤝 Contributing
 PRs are welcome! Fork the repo and submit your improvements.
 
-📜 License
+## 📜 License
 MIT © XORO
