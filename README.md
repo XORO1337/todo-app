@@ -13,14 +13,13 @@ A minimalist yet powerful todo application built with React. Organize your tasks
 
 ## ✨ Features
 - Add, complete, and delete tasks
-- Filter tasks (All/Active/Completed)
-- Dark/Light mode
+- Filter tasks according to priority and tags (Low/Medium/High)
 - Mobile-friendly
 - Data persists in local storage
 
 ## 🚀 Quick Start
 ```bash
-git clone https://github.com/XORO1337/todo-app.git
+git clone --depth 1 https://github.com/XORO1337/todo-app.git
 cd todo-app
 npm install
 npm start
